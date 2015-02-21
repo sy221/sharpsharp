@@ -1,7 +1,9 @@
 Microsoft Visual Studio Solution File, Format Version 11.00
 # Visual Studio 2008
 
-Project("{2C887358-82FC-A796-2E70-190BC67E5514}") = "SharpSharp", "Assembly-CSharp.csproj", "{745D7504-8A8F-4F38-48A3-1CC05A63914F}"
+Project("{34822B0F-FC8B-B131-36E7-93429F2E629B}") = "sharpsharp", "Assembly-CSharp.csproj", "{CCEE5643-6BF8-CAF2-E73D-36AFD5D1946F}"
+EndProject
+Project("{34822B0F-FC8B-B131-36E7-93429F2E629B}") = "sharpsharp", "Assembly-UnityScript.unityproj", "{B74B3387-2523-7E6A-6658-F23BB1708188}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -9,15 +11,19 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{745D7504-8A8F-4F38-48A3-1CC05A63914F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{745D7504-8A8F-4F38-48A3-1CC05A63914F}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{745D7504-8A8F-4F38-48A3-1CC05A63914F}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{745D7504-8A8F-4F38-48A3-1CC05A63914F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CCEE5643-6BF8-CAF2-E73D-36AFD5D1946F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CCEE5643-6BF8-CAF2-E73D-36AFD5D1946F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CCEE5643-6BF8-CAF2-E73D-36AFD5D1946F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CCEE5643-6BF8-CAF2-E73D-36AFD5D1946F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B74B3387-2523-7E6A-6658-F23BB1708188}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B74B3387-2523-7E6A-6658-F23BB1708188}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B74B3387-2523-7E6A-6658-F23BB1708188}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B74B3387-2523-7E6A-6658-F23BB1708188}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
-	GlobalSection(MonoDevelopProperties) = preSolution
+																GlobalSection(MonoDevelopProperties) = preSolution
 		StartupItem = Assembly-CSharp.csproj
 		Policies = $0
 		$0.TextStylePolicy = $1
@@ -35,4 +41,5 @@ Global
 		$3.inheritsScope = text/plain
 		$3.scope = text/plain
 	EndGlobalSection
+
 EndGlobal
